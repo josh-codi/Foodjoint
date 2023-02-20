@@ -1,0 +1,31 @@
+.popularFood{
+    margin: 1rem 0 1rem 0;
+}
+.popularFood .head{
+    justify-content: space-between;
+}
+.popularFood .img-container{
+    border-radius: 6px;
+    box-shadow: 0 0 4px #dedede;
+}
+.popularFood .food{
+    width: 45%;
+    margin: 1rem auto;
+    padding: 0.8rem;
+    box-shadow: 0 0 5px #c7c7c7;
+    border-radius: 6px;
+}
+.popularFood .foodsubText{
+    text-align: left;
+    padding-top: 0.4rem;
+}
+.popularFood .foodsubText small{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.foodsubText p{
+    margin: 0;
+}
+.popularFood .foodContainer{
+    flex-wrap: wrap;
+}

@@ -1,0 +1,15 @@
+.bottomNav{
+    width: 100%;
+    justify-content: space-around;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: -1px 1px 3px rgb(194, 194, 194);
+    padding: 1rem;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+
+}
+.bottomNav img{
+    width: 25px;
+}
