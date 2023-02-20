@@ -8,10 +8,10 @@ import dishs from '../../images/spoon.png'
 function BottomNav() {
   return (
     <div className='bottomNav flex'>
-        <img src={home} alt="" />
-        <img src={dishs} alt="" />
-        <img src={res} alt="" />
-        <img src={per} alt="" />
+        <img onClick={()=>window.location = '/'} src={home} alt="" />
+        <img onClick={()=>window.location = '/'} src={dishs} alt="" />
+        <img onClick={()=>window.location = '/'} src={res} alt="" />
+        <img onClick={()=>window.location = '/'} src={per} alt="" />
     </div>
   )
 }

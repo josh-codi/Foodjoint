@@ -12,10 +12,12 @@ function App() {
     <div className="App">
       <div className="mobile-container">
         <Header />
+        <div style={{height: '70px'}}></div>
         <Routes>
           <Route path='/' exact element={<Home data={sampleData}/>}/>
           <Route path='/detail/:id' exact element={<FoodDetail data={sampleData}/>}/>
           <Route path='/cart' exact element={<Cart data={sampleData}/>}/>
+          <Route path='*' element={<Home/>}/>
         </Routes>
         <BottomNav/>
       </div>

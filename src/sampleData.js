@@ -9,32 +9,38 @@ const data = [
     {
         name: 'Chicken Pizza',
         price: 129.40,
-        image: f1
+        image: f1,
+        id: 0
     },
     {
         name: 'Yam Chips',
         price: 34.40,
-        image: f2
+        image: f2,
+        id: 1
     },
     {
         name: 'Fried Rice',
         price: 567.40,
-        image: f3
+        image: f3,
+        id: 2
     },
     {
         name: 'Jollof',
         price: 234.40,
-        image: f4
+        image: f4,
+        id: 3
     },
     {
         name: 'Beaf Jollf',
         price: 98.40,
-        image: f5
+        image: f5,
+        id: 4
     },
     {
         name: 'Khebab',
         price: 84.40,
-        image: f6
+        image: f6,
+        id: 5
     },
 ]
 

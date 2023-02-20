@@ -1,0 +1,19 @@
+.detail{
+    margin-top: 1rem;
+    text-align: left;
+    min-height: 100%;
+}
+.detail .foodImg{
+    min-height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.detail .gh{
+    font-size: 20px;
+    color: black !important;
+}
+.detail .addToCart{
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
